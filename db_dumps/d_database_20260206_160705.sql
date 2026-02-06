@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 9rIfj6VWKUVk5CoIzP7ukOnAJStN7H7EdaKNboQqhe2aCckWwLLMBeJshOeYkfX
+\restrict 5s5e5wNREvoJLFTbd9X6pyLszL38Jffllmz7lmAKx6wu27QBivrFXHU6Z15Y8lP
 
 -- Dumped from database version 14.20 (Homebrew)
 -- Dumped by pg_dump version 14.20 (Homebrew)
@@ -78,7 +78,7 @@ COPY public.users (id, username, email, created_at) FROM stdin;
 -- Name: users_id_seq; Type: SEQUENCE SET; Schema: public; Owner: douglasnunes
 --
 
-SELECT pg_catalog.setval('public.users_id_seq', 1, true);
+SELECT pg_catalog.setval('public.users_id_seq', 2, true);
 
 
 --
@@ -109,5 +109,5 @@ ALTER TABLE ONLY public.users
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 9rIfj6VWKUVk5CoIzP7ukOnAJStN7H7EdaKNboQqhe2aCckWwLLMBeJshOeYkfX
+\unrestrict 5s5e5wNREvoJLFTbd9X6pyLszL38Jffllmz7lmAKx6wu27QBivrFXHU6Z15Y8lP
 

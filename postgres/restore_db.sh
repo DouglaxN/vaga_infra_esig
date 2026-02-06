@@ -30,3 +30,4 @@ echo "Restoring database '$DB_NAME'..."
 psql -U $DB_USER $DB_NAME < $DUMP_FILE
 
 echo "Database restoration completed."
+

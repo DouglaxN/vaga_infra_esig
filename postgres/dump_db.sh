@@ -19,5 +19,5 @@ else
 fi
 
 
-# chmod +x postgres/restore_db.sh
+# chmod +x postgres/dum_db.sh
 # ./postgres/dump_db.sh
