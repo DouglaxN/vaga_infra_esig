@@ -18,7 +18,7 @@ O objetivo é mostrar, de forma prática, como garantir **reprodutibilidade**, *
 │   └── d_database_YYYYMMDD_HHMMSS.sql
 └── README.md
 ```text
-
+--- 
 ## 📄 Script 1 – Criação do Banco (create_db.sql)
 Este script cria o banco de dados inicial, uma tabela de exemplo e insere um registro para testes.
 
