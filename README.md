@@ -1,4 +1,3 @@
-````markdown
 # PostgreSQL Dump & Restore Automation
 
 Este projeto demonstra a automação de **criação**, **backup (dump)** e **restauração (restore)** de um banco de dados PostgreSQL utilizando **scripts SQL e Bash**.
@@ -6,7 +5,7 @@ Este projeto demonstra a automação de **criação**, **backup (dump)** e **res
 ---
 
 ## 📂 Estrutura do Projeto
-````
+
 ```text
 .
 ├── postgres/
