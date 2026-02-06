@@ -1,6 +1,6 @@
-CREATE DATABASE my_database;
+CREATE DATABASE d_database;
 
-\c my_database;
+\c d_database;
 
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
@@ -9,4 +9,4 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-INSERT INTO users (name, email) VALUES ('douglas', 'douglas.nunes@gmail.com');
+INSERT INTO users (username, email) VALUES ('douglasnunes', 'douglas.nunes@gmail.com');

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DB_NAME="my_database"
-DB_USER="postgres"
+DB_NAME="d_database"
+DB_USER="$USER"
 DUMP_FILE="$1"
 
 if [ -z "$DUMP_FILE" ]; then
