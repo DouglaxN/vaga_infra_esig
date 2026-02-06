@@ -112,5 +112,3 @@ chmod +x postgres/restore_db.sh
 Douglas Nunes
 
 ```
-
----
