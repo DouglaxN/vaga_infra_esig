@@ -10,3 +10,8 @@ CREATE TABLE users (
 );
 
 INSERT INTO users (username, email) VALUES ('douglasnunes', 'douglas.nunes@gmail.com');
+
+-- brew service postgresql start
+-- psql postgres
+-- \i postgres/create_db.sql
+-- psql postgres -f postgres/create_db.sql
